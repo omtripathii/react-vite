@@ -1,4 +1,4 @@
-
+// src/components/Todo.jsx
 import React, { useState } from 'react';
 
 const Todo = () => {
@@ -17,7 +17,7 @@ const Todo = () => {
   };
 
   return (
-    <div>
+    <div data-testid="todo-component">
       <h1>Todo List</h1>
       <div>
         <input
